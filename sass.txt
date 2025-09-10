@@ -1,0 +1,13 @@
+sass --watch "H:\weblearn\exdoc\assets\scss\main.scss" "H:\weblearn\exdoc\assets\css\style.css"
+
+
+1. Font set 
+    - utills > Typography.scss
+    - font variable set 
+2. Sass > Theme.scss 
+    - heading + body font set
+    - body font size set 
+
+3. container width set 
+    - gitter fixed 
+    - padding fixed 
