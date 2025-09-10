@@ -3641,4 +3641,36 @@ textarea {
   top: 100%;
 }
 
+.tp-header-border {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+.tp-header-search {
+  margin-right: 10px;
+}
+.tp-header-bar button {
+  background-color: #23252d;
+  padding: 35px 25px;
+}
+.tp-header-cta {
+  display: flex;
+  justify-content: center;
+  padding: 0px 25px;
+  border-left: 1px solid rgba(255, 255, 255, 0.15);
+}
+.tp-header-cta-icon {
+  margin-right: 15px;
+}
+.tp-header-cta-text span {
+  color: #b1b4ba;
+  font-size: 15px;
+  display: block;
+  margin-bottom: 7px;
+  line-height: 1;
+}
+.tp-header-cta-text h4 {
+  color: #ffffff;
+  font-size: 18px;
+  margin: 0;
+}
+
 /*# sourceMappingURL=style.css.map */
