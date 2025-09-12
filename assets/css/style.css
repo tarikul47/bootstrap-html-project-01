@@ -3592,12 +3592,12 @@ textarea {
   padding-right: 100px;
 }
 
-.pt-290 {
-  padding-top: 290px;
+.pt-295 {
+  padding-top: 295px;
 }
 
-.b-170 {
-  padding-bottom: 170px;
+.pb-179 {
+  padding-bottom: 179px;
 }
 
 .tp-transparent-header {
@@ -3697,6 +3697,9 @@ textarea {
   margin: 0;
 }
 
+.tp-hero-area {
+  background-size: cover;
+}
 .tp-hero-title {
   font-size: 110px;
   text-transform: uppercase;
@@ -3716,15 +3719,52 @@ textarea {
   display: inline-block;
   transform: translateY(-5px);
 }
-
+.tp-hero-shape-4 {
+  right: 15px;
+  top: 200px;
+}
 .tp-hero-shape-5 {
   right: 140px;
   bottom: 140px;
 }
-
-.tp-hero-shape-4 {
-  right: 190px;
-  top: 300px;
+.tp-hero-shape-2 {
+  left: 10%;
+  top: 30%;
+}
+.tp-hero-shape-3 {
+  left: 58%;
+  top: 30%;
+}
+.tp-hero-shape-1 {
+  left: -5%;
+  top: 15%;
+}
+.tp-hero-info {
+  text-transform: uppercase;
+  color: #b1b4ba;
+  font-weight: 500;
+  font-size: 15px;
+  width: 100px;
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: absolute;
+  z-index: 11;
+  gap: 300px;
+  height: 500px;
+}
+.tp-hero-social, .tp-hero-info-text {
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+.tp-hero-divider {
+  width: 2px;
+  height: 868px;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.15);
+  top: 101px;
+  left: 97px;
 }
 
 /*# sourceMappingURL=style.css.map */
