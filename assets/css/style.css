@@ -157,17 +157,23 @@
 
 .tp-btn-sec {
   background-color: var(--tp-theme-color-2);
-  padding: 21px 45px;
+  padding: 16px 45px;
   font-family: var(--tp-fonts-heading);
   font-size: 18px;
   line-height: 28px;
   border-radius: 5px;
   display: inline-block;
 }
+.tp-btn-sec-lg {
+  padding: 21px 45px;
+}
 
 .tp-section-title {
   font-size: 60px;
   line-height: 1.17;
+}
+.tp-section-title-white {
+  color: #ffffff;
 }
 
 * {
@@ -395,6 +401,10 @@ textarea {
 
 .tp-black-bg {
   background-color: var(--tp-common-black);
+}
+
+.tp-blue-bg {
+  background-color: var(--tp-theme-color);
 }
 
 /*--
@@ -4119,6 +4129,11 @@ textarea {
   font-size: 30px;
   color: #57595c;
   margin-bottom: 0;
+}
+
+.tp-newsletter-bg {
+  padding: 80px;
+  border-radius: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
