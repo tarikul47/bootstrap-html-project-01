@@ -144,8 +144,14 @@
         <!-- Hero section end -->
 
         <!-- tp about section start -->
-        <section class="tp-about-area pt-130 pb-130">
-            <div class="container">
+        <section class="tp-about-area pt-130 pb-130 p-relative" style="background-image: url(assets/img/bg/about-bg.jpg);">
+            <div class="tp-about-shape">
+                <img class="tp-about-shape-1 p-absolute z-index-1" src="assets/img/shape/about-star-1.png" alt="">
+                <img class="tp-about-shape-2 p-absolute z-index-1" src="assets/img/shape/about-star-2.png" alt="">
+                <img class="tp-about-shape-3 p-absolute z-index-1" src="assets/img/shape/about-star-3.png" alt="">
+            </div>
+            
+            <div class="container p-relative z-index-11">
                 <div class="row">
                     <div class="col-xl-6">
                         <div class="tp-about-img pb-100">
@@ -189,9 +195,9 @@
                 </div>
             </div>
         </section>
-        <!-- tp about section end -->
+        <!-- tp about section end 24.16 -->
 
-        <section class="tp-newsletter-area">
+        <section class="tp-newsletter-area tp-newsletter-margin p-relative z-index-11">
             <div class="container">
                 <div class="tp-newsletter-bg tp-blue-bg p-80">
                     <div class="row">
@@ -204,9 +210,13 @@
 
                         <!-- right column with right offset -->
                         <div class="col-xl-8">
-                            <div class="tp-newsletter-box">
+                            <div class="tp-newsletter-box p-relative">
+                                <h2 class="tp-newsletter-back">Newsletter</h2>
                                 <form action="">
-                                    <input type="email" name="email" placeholder="Email Here*" id="email">
+                                    <div class="tp-newsletter-input p-relative">
+                                        <input type="email" name="email" placeholder="Email Here*" id="email">
+                                        <img src="assets/img/shape/send.png" alt="">
+                                    </div>
                                     <button class="tp-btn-sec">Subscribe Now</button>
                                 </form>
                             </div>

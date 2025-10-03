@@ -2,8 +2,23 @@
 
 .tp-about {
   &-area {
+    overflow: hidden;
     & img {
       border-radius: 20px;
+    }
+  }
+  &-shape {
+    &-1 {
+      top: 30%;
+      left: 0;
+    }
+    &-2 {
+      top: 5%;
+      right: -10%;
+    }
+    &-3 {
+      top: 45%;
+      left: 30%;
     }
   }
   &-video {
