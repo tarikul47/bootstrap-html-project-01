@@ -1,1 +1,25 @@
-@use '../../utils' as *;
+@use "../../utils" as *;
+
+.project {
+  list-style: none;
+  & li {
+    & button {
+      color: #ffffff;
+      font-family: "Federo";
+      font-weight: 400;
+      font-size: 100px;
+      line-height: 110px;
+      border-bottom: 1px solid #2f446b;
+      padding: 10px 35px 10px 100px;
+      transition: 0.3s;
+      &.active {
+        color: var(--tp-theme-color-2);
+        border-color: var(--tp-theme-color-2);
+      }
+    }
+  }
+}
+
+.tp-project-tab-thumb img {
+  border-radius: 20px;
+}

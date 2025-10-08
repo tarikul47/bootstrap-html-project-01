@@ -45,6 +45,18 @@
 .tp-black-bg {
   background-color: var(--tp-common-black);
 }
+
 .tp-blue-bg {
   background-color: var(--tp-theme-color);
+}
+
+.tp-nblue-bg {
+  background-color: var(--tp-theme-nblue);
+}
+
+.br-5 {
+  border-radius: 5px;
+}
+.br-24 {
+  border-radius: 24px;
 }

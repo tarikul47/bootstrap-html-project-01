@@ -9,17 +9,27 @@
   border-radius: 5px;
   display: inline-block;
   color: #ffffff;
-}
-
-.tp-btn-sec {
-  background-color: var(--tp-theme-color-2);
-  padding: 16px 45px;
-  font-family: var(--tp-fonts-heading);
-  font-size: 18px;
-  line-height: 28px;
-  border-radius: 5px;
-  display: inline-block;
-  &-lg {
-    padding: 21px 45px;
+  &-sec {
+    background-color: var(--tp-theme-color-2);
+    padding: 16px 45px;
+    font-family: var(--tp-fonts-heading);
+    font-size: 18px;
+    line-height: 28px;
+    border-radius: 5px;
+    display: inline-block;
+    &-lg {
+      padding: 21px 45px;
+    }
+  }
+  &-circle {
+    display: inline-block;
+    font-family: var(--tp-fonts-heading);
+    font-size: 60px;
+    color: #ffffff;
+    opacity: 0.3;
+    border: 2px solid rgba(255, 255, 255, 100%);
+    padding: 45px 76px;
+    border-radius: 100%;
   }
 }
+

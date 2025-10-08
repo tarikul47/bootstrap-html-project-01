@@ -1,1 +1,33 @@
-@use '../../utils' as *;
+@use "../../utils" as *;
+
+.tp-testimonial {
+  &-shape {
+    position: absolute;
+    top: 65px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+  }
+  &-desc {
+    font-size: 100px;
+  }
+  &-name {
+    font-size: 30px;
+    margin-bottom: 8px;
+  }
+  &-desig {
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+    & span {
+      height: 1px;
+      width: 60px;
+      display: inline-block;
+      background-color: #57595c;
+      margin-right: 10px;
+    }
+  }
+}
+
