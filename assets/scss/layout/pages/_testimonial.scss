@@ -31,3 +31,30 @@
   }
 }
 
+.tp-swiper-button-next {
+  font-size: 50px;
+  right: 25px;
+  top: 46%;
+}
+
+.tp-swiper-button-prev {
+  top: 46%;
+  left: 25px;
+  font-size: 50px;
+}
+
+.swiper-button-disabled {
+  color: #cbbcbc;
+}
+
+.tp-testimonial-author-bg-2 {
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.tp-testimonial-author-bg-1 {
+  left: 0;
+  top: 110px;
+  z-index: -1;
+}
